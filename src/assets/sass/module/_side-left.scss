@@ -1,0 +1,53 @@
+.side-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    h4 {
+       
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 
+        21.04px;
+    }
+    h2 {
+        font-size: 3.2rem;
+        line-height: 
+        37.41px;
+        
+    }
+    span {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .btn {
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1.87rem;
+        font-size: 1.6rem;
+        
+        color: white;
+        background-color: #C0DF33;
+        padding: 2rem 3rem 2rem 3rem;
+        border-radius: .5rem;
+        margin-top: 2rem;
+    }
+    .h-4 {
+        margin-bottom: -2rem;
+        margin-left: 1.4rem;
+    }
+    .p-2 {
+        font-size: 1.4rem;
+        margin-top: 4rem;
+        line-height: 1.6;
+        padding: .1rem;
+        margin-bottom: 13rem;
+    }
+
+}

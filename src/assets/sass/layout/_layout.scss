@@ -1,0 +1,38 @@
+.wrapper {
+    width: 1440px;
+    background-color: lightgray;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    border: 1px black solid;
+    width:  635px;
+    height: 475px;
+    display: grid;
+    grid-template-columns:  50% 50%;
+    grid-template-rows: 216px 259px;
+
+}
+
+.top {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    padding: 2rem 3.5rem 3rem 3.5rem;
+}
+.side-left {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: darken( #2AB3B1 ,3%);
+    padding: 3.5rem;
+}
+.side-right{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #2AB3B1;
+    padding: 3.5rem;
+}
