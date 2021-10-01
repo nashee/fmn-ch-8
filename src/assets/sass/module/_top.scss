@@ -32,3 +32,41 @@
 
     }
 }
+
+@media only screen and (max-width: 600px){
+    .article {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        &__heading {
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20px;
+            color: #2AB3B1; 
+        }
+        &__detail__heading {
+            font-weight: 700;
+            font-style: normal;
+            font-size: 15px;
+            letter-spacing: -0.19px;
+            color: #C0DF33;
+            margin-top: -2rem;
+            
+        }
+        &__detail__detail {
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+            line-height: 26px;
+            letter-spacing: -0.17px;
+            color:  #9AA7BE;
+            margin-top: 2rem;
+        
+        }
+        
+    }
+    
+}
