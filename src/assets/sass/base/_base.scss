@@ -1,42 +1,74 @@
-*,::after, ::before{
-   border: 0;
-   margin: 0;
-   box-sizing: inherit;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+:root {
+    //color
+    --clr-primary-one: hsl(179, 62%, 43%);
+    
+    --clr-primary-two: hsl(71, 73%, 54%);
+    --clr-neutral-one: hsl(204, 43%, 93%);
+    --clr-neutral-two: hsl(218, 22%, 67%);
+
+    //font size
+    --fs-body: 1.6rem;
+    --fs-heading-sub: 1.8rem;   // same
+    --fs-heading-main: 2.4rem;  // same
+    --fs-heading-price: 3.2rem;  //same
+    --fs-price: 1.6rem;  // same
+    --fs-heading-ads: 1.5rem;  // 1.8
+    --fs-paragraph: 1.4rem;    // 1.6
+
+    //font family
+    --ff-body : font-family: 'Karla', sans-serif;
+
+    //padding 
+    --pd-section: 2.5rem;
+
+    //margin
+    --mb-main:  2.5rem;  //margin bottom main
+        
+    
 }
 
+//base
 html {
+    font-size: 65.5%;
     box-sizing: border-box;
-    font-size: 62.5%;
+}
 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
 }
 
 body {
-    font-size: 1.6rem;
-    background-color:  lightgray;
-    font-family: 'Karla', sans-serif;
-    
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    background-color: #F2F2F2;
 }
-@media only screen and (max-width: 600px){
-    *,::after, ::before{
-        border: 0;
-        margin: 0;
-        box-sizing: inherit;
-     
-     }
-     
-     html {
-         box-sizing: border-box;
-         font-size: 62.5%;
-     
-     }
-     
-     body {
-         font-size: 1.6rem;
-         background-color:  #F2F2F2;
-         font-family: 'Karla', sans-serif;
-         padding: 30px 10px;
-         
-     }
-     
+@media (min-width: 575px) {
+   body {
+        padding: 5rem 5.3rem ;
+   }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 575px){
+   :root {
+       //font size
+       --fs-heading-ads: 1.8rem;  // 1.8
+       --fs-paragraph: 1.6rem;    // 1.6
+    
+   }
+
+   
+
+
 }

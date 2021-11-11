@@ -1,71 +1,69 @@
-/*.wrapper {
-    width: 1440px;
-    background-color: lightgray;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
-.container {
-    margin: 100px auto 0;
-    
-    width:  635px;
-    height: 475px;
-    display: grid;
-    grid-template-columns:  50% 50%;
-    grid-template-rows: 216px 259px;
-
-}
-
-.top {
+.top{
+    padding: var(--pd-section);
     background-color: white;
-    display: flex;
-    justify-content: space-around;
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    padding: 2rem 3.5rem 3rem 3.5rem;
+    
 }
-.side-left {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-color: darken( #2AB3B1 ,3%);
-    padding: 3.5rem;
-}
-.side-right{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-color: #2AB3B1;
-    padding: 3.5rem;
-}
-@media only screen and (max-width: 600px){
+
+.bottom {
+   background-color: var(--clr-primary-one);
    
-    .container {
-        margin: 0;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 267px 228px  227px;
-        
-    
-    }
-    
-    .top {
-        grid-column: 1/-1;
-        grid-row: 1/2;
-        background-color: white;
-        padding: 2rem;
-    }
+   color: white;
+
     .side-left {
-        
-        grid-column: 1/-1;
-        grid-row: 2/3;
-        background-color: darken( #2AB3B1 ,3%);
-        padding: 2.5rem;
+        padding: var(--pd-section);
+        background-color: darken(hsl(179, 62%, 43%) , 3%);  
     }
+
     .side-right {
-        grid-column: 1/-1;
-        grid-row: 3/4;
-        background-color: #2AB3B1;
-        padding: 2.5rem;
+        padding: var(--pd-section);
+        p {
+            color: white;
+        }
+
     }
+
+    }
+
+.container-price {
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-main);
+
+    .heading-price {
+       
+    }
+
+    .price {
+        
+    }
+    
+}
+
+@media (min-width: 575px){
+    .top {
+        margin: 0 auto;
+        max-width: 700px;
+
+    }
+    .bottom {
+        margin: 0 auto;
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .side-left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .side-right {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    
+
 }

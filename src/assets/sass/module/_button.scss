@@ -1,0 +1,21 @@
+.button {
+    padding: 1.5rem 9.3rem;
+    display: block;
+    background-color: var(--clr-primary-two);
+    margin-bottom: var(--mb-main);
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: var(--clr-primary-one);
+    border-radius: .5rem;
+    color: white;
+
+}
+
+.link-box {
+    color: darken(hsl(179, 62%, 43%), 15%);
+    box-shadow: 1rem 1rem .8rem;   
+}

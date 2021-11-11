@@ -22,7 +22,7 @@
         color: #C0DF33;
         font-weight: 700;
         
-        margin: 2rem 0;
+        margin: 0 0 2.4rem;
         
         
     }
@@ -51,15 +51,18 @@
             font-weight: 700;
             font-style: normal;
             font-size: 15px;
+           
+            line-height: 20px;
             letter-spacing: -0.19px;
             color: #C0DF33;
-            margin-top: -2rem;
+            margin: 0  0  4rem 0 ;
+
             
         }
         &__detail__detail {
             font-weight: 400;
             font-style: normal;
-            font-size: 13px;
+            font-size: 14px;
             line-height: 26px;
             letter-spacing: -0.17px;
             color:  #9AA7BE;

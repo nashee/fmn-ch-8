@@ -1,0 +1,71 @@
+// karla google font
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.heading-main {
+   font-size: var(--fs-heading-main);
+   font-family: inherit;
+   font-weight: 700;
+   font-style: normal;
+   color: var(--clr-primary-one);
+   text-align: left;
+   margin-bottom: var(--mb-main);
+}
+
+.heading-sub {
+    font-family: inherit;
+    
+    font-size: var(--fs-heading-sub);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.22499999403953552px;
+    text-align: left;
+    margin-bottom: var(--mb-main);
+
+ }
+
+ .heading-price {
+    font-family: inherit;
+    font-size: var(--fs-heading-price);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    
+    margin-right: 1rem;
+    
+    
+
+ }
+ .price {
+    font-family: inherit;
+    font-size: var(--fs-price);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;   
+ }
+ 
+
+.heading-ads {
+      font-family: inherit;
+      font-style: normal;
+      font-weight: bold;
+      font-size: var(--fs-heading-ads);
+      color: #C0DF33;
+      margin-bottom: var(--mb-main);
+
+}
+
+.paragraph {
+font-family: inherit;
+font-style: normal;
+font-weight: normal;
+font-size: var(--fs-paragraph);
+line-height: 26px;
+
+
+letter-spacing: -0.175px;
+
+color: #9AA7BE;
+
+
+}
